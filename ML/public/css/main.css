@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-    --amarillo: #EAC926;
-    --azul: #03264C;
-    --celeste: #1259c3;
-    --gris-oscuro: #666;
-    --gris-claro: #ebebeb;
-    --verde: #39b54a;
+    --yellow: #EAC926;
+    --blue: #03264C;
+    --light-blue: #1259c3;
+    --gray: #666;
+    --light-gray: #ebebeb;
+    --green: #39b54a;
+    --white: white;
     --font-sm: 12px;
     --font-md: 16px;
     --font-lg: 18px;
