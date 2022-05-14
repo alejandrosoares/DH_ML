@@ -18,13 +18,17 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--light-gray);
+}
+
 .title {
     font-size: var(--font-xl);
 }
 
 .price {
     font-size: var(--font-lg);
-    color:#39b54a;
+    color: var(--green);
 }
 
 .description {
