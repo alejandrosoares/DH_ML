@@ -2,6 +2,18 @@
     background-color: var(--yellow);
     padding: 15px;
 }
+
+.header__subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header__subtitle p {
+    text-align: center;
+}
+.header__subtitle p i {
+    font-size: var(--font-xl);
+}
+
 .collapse-button button{
     background-color: var(--light-blue);
     color: var(--white);
