@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--yellow);
+    padding: 15px;
+}
+.collapse-button button{
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-size: var(--font-xl);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* movil */
+@media (max-width: 360px) {
+    .header {
+        padding: 4px;
+    }
+    .header__site,
+    .header__login {
+        display: none;
+    }
+}
+
+/* tablets */
+@media (min-width: 361px) {
+    .collapse-button  {
+        display: none;
+    }
+}
