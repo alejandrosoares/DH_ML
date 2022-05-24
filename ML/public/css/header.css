@@ -62,6 +62,26 @@
 
 
 /* BOTTOM BAR */
+
+.header__bottom-bar {
+    margin: 12px 4px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom-bar > nav > ul {
+    display: flex;
+    justify-content: center;
+}
+.header__bottom-bar > nav > ul li {
+    padding: 4px 8px;
+}
+.header__bottom-bar > nav li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 .header__subtitle {
     margin-top: 15px;
     margin-bottom: 15px;
