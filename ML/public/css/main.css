@@ -4,6 +4,7 @@
 @import url('footer.css');
 
 :root {
+    /* COLORS */
     --yellow: #EAC926;
     --blue: #03264C;
     --light-blue: #1259c3;
@@ -11,10 +12,16 @@
     --light-gray: #ebebeb;
     --green: #39b54a;
     --white: white;
+    --black: black;
+
+    /* FONTS */
     --font-sm: 12px;
     --font-md: 16px;
     --font-lg: 18px;
     --font-xl: 24px;
+
+    /* MEASURES */
+    --border-radius: 5px;
 }
 
 * {
@@ -35,7 +42,7 @@ body {
 
 .price {
     font-size: var(--font-lg);
-    color: var(--green);
+    color: var(--black);
 }
 
 .description {
@@ -44,4 +51,10 @@ body {
 
 .discount {
     font-size: var(--font-md);
+    color: var(--green);
+}
+
+main {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }

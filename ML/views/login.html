@@ -7,9 +7,10 @@
     <!-- styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
     <!-- icons -->
     <link rel="stylesheet"  href="font/bootstrap-icons.css">
-    <title>Ingresar |Mercado Liebre</title>
+    <title>Ingresar | Mercado Liebre</title>
 </head>
 <body>
     <header class="header">
@@ -54,41 +55,56 @@
         </div>
     </header>
     <main>
-        <div class="">
-            <h1>Ingresar a tu cuenta</h1>
-        </div>
-        <form action="" method="POST">
-            <div>
-                <input type="text" name="name" id="name">
+        <form action="" method="POST" class="form">
+            <div class="form__title">
+                <h1>Ingresá a tu cuenta</h1>
             </div>
             <div>
-                <input type="text" name="name" id="name">
+                <input type="text" name="username" id="usename" placeholder="usuario">
             </div>
             <div>
-                <input type="text" name="name" id="name">
+                <input type="text" name="password" id="password" placeholder="contraseña">
             </div>
             <div>
                 <button>Ingresar</button>
             </div>
         </form>
     </main>
-    <footer>
+    <footer class="footer">
         <section>
-            <i class="bi bi-credit-card"></i>
-            <p>Pagá con tarjetas o en efectivo</p>
-            <p>Con MercadoLiebreCash tenés cuotas sin interés con  tarjetas o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            <div>
+                <i class="bi bi-credit-card"></i>
+            </div>
+            <div>
+                <p>Pagá con tarjetas o en efectivo</p>
+            </div>
+            <div>
+                <p>Con MercadoLiebreCash tenés cuotas sin interés con  tarjetas o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div> 
         </section>
         <section>
-            <i class="bi bi-box2-heart"></i>
-            <p>Envío gratis desde los $ 2.500</p>
-            <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+            <div>
+                <i class="bi bi-box2-heart"></i>
+            </div>
+            <div>
+                <p>Envío gratis desde los $ 2.500</p>
+            </div>
+            <div>
+                <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+            </div>
         </section>
         <section>
-            <i class="bi bi-shield-check"></i>
-            <p>Seguridad de principio a fin</p>
-            <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer por que siempre estás protegid@.</p>
+            <div>
+                <i class="bi bi-shield-check"></i>
+            </div>
+            <div>
+                <p>Seguridad de principio a fin</p>
+            </div>
+            <div>
+                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer por que siempre estás protegid@.</p>
+            </div>
         </section>
-        <section>
+        <section class="copy">
             <p>Copyright 1999-2020 &copy; MercadoLiebre S.R.L.</p>
         </section>
     </footer>
