@@ -68,3 +68,8 @@ fieldset input[type="checkbox"] {
 fieldset label {
     width: 40% !important;
 }
+
+.clear-data button {
+    background-color: transparent;
+    color: var(--light-blue);
+}
