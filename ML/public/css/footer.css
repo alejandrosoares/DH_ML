@@ -16,8 +16,8 @@
 .footer section i {
     display: inline-block;
     color: var(--light-blue);
-    font-size: calc(var(--font-xl ) * 1.5);
-    margin-bottom: 4px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .footer section p {
