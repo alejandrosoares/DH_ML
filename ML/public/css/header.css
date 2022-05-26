@@ -79,7 +79,7 @@
 /* BOTTOM BAR */
 
 .header__bottom-bar {
-    margin: 12px 4px 4px;
+    margin: 12px 4px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
