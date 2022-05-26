@@ -7,9 +7,10 @@
     <!-- styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
     <!-- icons -->
     <link rel="stylesheet"  href="font/bootstrap-icons.css">
-    <title>Ingresar |Mercado Liebre</title>
+    <title>Crear cuenta | Mercado Liebre</title>
 </head>
 <body>
     <header class="header">
@@ -54,21 +55,69 @@
         </div>
     </header>
     <main>
-        <div class="">
-            <h1>Ingresar a tu cuenta</h1>
-        </div>
-        <form action="" method="POST">
-            <div>
-                <input type="text" name="name" id="name">
+        <form action="" method="POST" class="form">
+            <div class="form__title">
+                <h1>Creá tu cuenta</h1>
             </div>
             <div>
-                <input type="text" name="name" id="name">
+                <input type="text" name="surname" id="surname" placeholder="Apellido">
             </div>
             <div>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" placeholder="Nombre">
             </div>
             <div>
-                <button>Ingresar</button>
+                <input type="text" name="username" id="username" placeholder="Usuario">
+            </div>
+            <div>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="form__field date">
+                <label for="birthDate">Fecha de nacimiento</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+            <div>
+                <input type="text" name="address" id="address" placeholder="Domicilio">
+            </div>
+            <div class="form__field profile">
+                <p>Perfil de usuario</p>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="buyer" name="perfil" value="buyer">
+                        <label for="buyer">Comprador</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="seller" name="perfil" value="seller">
+                        <label for="seller">Venderdor</label><br>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form__field interests">
+                <p>Intereses</p>
+                <fieldset>
+                    <div>
+                        <input type="checkbox" id="int01" name="interests" value="01">
+                        <label for="int01">Electro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="int02" name="interests" value="02">
+                        <label for="int02">Moda</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="int03" name="interests" value="03">
+                        <label for="int03">Hogar</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="int04" name="interests" value="04">
+                        <label for="int04">Juguetería</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="vendedor" name="interests" value="05">
+                        <label for="vendedor">Vida sana</label><br>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <button>Crear mi cuenta</button>
             </div>
         </form>
     </main>

@@ -27,7 +27,7 @@
     background-color: var(--white);
     border-radius: var(--border-radius);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 4px 8px;
+    padding: 6px 8px;
 }
 
 .form button {
@@ -36,4 +36,35 @@
     color: var(--white);
     border: none;
     border-radius: var(--border-radius);
+}
+
+.form__field.date label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+/* INPUT RADIO y CHECKBOX */
+.profile > p,
+.interests > p {
+    margin-bottom: 8px;
+}
+
+fieldset div {
+    margin-bottom: 12px;
+}
+
+fieldset input[type="radio"],
+fieldset input[type="checkbox"],
+fieldset label {
+    display: inline !important;
+}
+
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
+    width: 10% !important;
+}
+
+fieldset label {
+    width: 40% !important;
 }
