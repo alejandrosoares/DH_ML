@@ -43,6 +43,13 @@
     margin-bottom: 4px;
 }
 
+.form__btn-submit button:hover {
+    background-color: #0022AA;
+}
+
+.clear-data button:hover {
+    color: #0022AA;
+}
 
 /* INPUT RADIO y CHECKBOX */
 .profile > p,
