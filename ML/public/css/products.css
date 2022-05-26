@@ -1,8 +1,10 @@
 .products {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .products__title {
@@ -20,7 +22,7 @@
     margin: 10px;
     border-top: 1px solid var(--light-gray);
     border-radius: 7px;
-    max-width: 300px;
+    max-width: 280px;
 }
 
 .products__item img {
