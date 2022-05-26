@@ -27,3 +27,24 @@
 .footer .copy p {
     font-size: var(--font-sm);
 }
+
+/* desktop */
+@media (min-width: 769px) {
+    .footer {
+        padding-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__section {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer__section div {
+        width: 100% !important;
+    }
+}
