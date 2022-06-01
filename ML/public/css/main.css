@@ -36,6 +36,9 @@ html {
 body {
     background-color: var(--light-gray);
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .title {
@@ -58,4 +61,5 @@ body {
 
 main {
     padding-bottom: 24px;
+    flex-grow: 1;
 }
