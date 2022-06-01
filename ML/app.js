@@ -2,7 +2,6 @@ const express = require('express')
 const path = require('path')
 const {templatePath} = require('./helpers/templatePath')
 const bodyParser = require('body-parser')
-const log = console.log
 const publicPath = path.resolve(__dirname, 'public')
 const app = express()
 
@@ -10,7 +9,7 @@ app.use(express.static(publicPath))
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.listen(3000, () => {
-    log('Servidor corriendo en puerto 3000')
+    console.log('Servidor corriendo en puerto 3000')
 })
 
 app.get('/', (req, res) => {
@@ -31,6 +30,5 @@ app.get('/register', (req, res) => {
 })
 
 app.post('/register', (req, res) => {
-    log(req.body)
     res.redirect('/')
 })
