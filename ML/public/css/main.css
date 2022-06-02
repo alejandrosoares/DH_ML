@@ -21,6 +21,9 @@
 
     /* MEASURES */
     --border-radius: 5px;
+
+    /* TRANSITIONS */
+    --transition-time: 1s;
 }
 
 * {

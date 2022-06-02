@@ -44,8 +44,17 @@
     margin-bottom: 4px;
 }
 
+.form__btn-submit button {
+    transition: all var(--transition-time) ease;
+}
+
 .form__btn-submit button:hover {
     background-color: #0022AA;
+}
+
+
+.clear-data button {
+    transition: all var(--transition-time) ease;
 }
 
 .clear-data button:hover {
