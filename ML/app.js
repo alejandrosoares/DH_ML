@@ -33,3 +33,4 @@ app.get('/register', (req, res) => {
 app.post('/register', (req, res) => {
     res.redirect('/')
 })
+
