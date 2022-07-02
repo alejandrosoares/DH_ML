@@ -1,13 +1,12 @@
 # DH_ML
-Ecommerce donde podrás encontrar los mejores productos y ofertas
-Proyecto realizado como práctica para Digital House
+E-commerce for Digital House course practice made with Node and Express
 
 ## Ejecutar
-1) Clonar proyecto e instalar las dependencias
+1) Install dependencies
 ```
 npm install
 ```
-2) Ejecutar nodemon
+2) Execute
 ```
 npm start
 ```
