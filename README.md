@@ -6,9 +6,7 @@ E-commerce for Digital House course practice made with Node and Express
 ```
 npm install
 ```
-2) Execute
+2) Execute project
 ```
 npm start
 ```
-
-
